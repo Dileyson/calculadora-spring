@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name: calculadora-spring
-          image: dileyson/calculadora-spring
+          image: dileyson/calculadora-spring:v1
