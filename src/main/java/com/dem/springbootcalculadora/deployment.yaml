@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: calculadora-spring
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: calculadora-spring
+  template:
+    metadata:
+      labels:
+        app: calculadora-spring
+    spec:
+      containers:
+        - name: calculadora-spring
+          image: docker.io/dileyson/calculadora-spring
