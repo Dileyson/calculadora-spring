@@ -1,6 +1,6 @@
 # calculadora-spring
 
-build the project with maven and do post request
+build the project with gradle and do post request
 example request
 
 {
